@@ -4,7 +4,7 @@
 
  <ol>
   <li><a href="#Tecnologias">Tecnologias utilizadas</a></li>
-  <li><a href="#Start">Configurando a API</a></li>
+  <li><a href="#Start">Iniciando a Aplicação/a></li>
   <li><a href="#Features">Funcionalidades</a>
     <ol>
       <li><a href="#Add">Adicionar um planeta</a></li>
