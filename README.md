@@ -15,8 +15,6 @@
       <li><a href="#deleta">Deletando um planeta</a></li>
     </ol>
   </li>
-  <li><a href="#final">Considerações finais</a>
- 
 </ol> 
 
 <dl>
