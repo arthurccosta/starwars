@@ -37,8 +37,6 @@ Assim a aplicação estará rodando. O script do docker apenas sobe o MongoDb e 
 
 ### <a name="Features">Funcionalidades</a>
 
-&nbsp;&nbsp;&nbsp;&nbsp;Vejamos algumas funcionalidades da API, os exemplos estão considerando a porta padrão 8080:
-
 #### <a name="Add"> Adicionar um planeta:</a>  
 
 &nbsp;&nbsp;&nbsp;&nbsp;Para adicionar um planeta deve ser feita uma requisição post em json para o endpoint "/planets".
