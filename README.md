@@ -42,7 +42,7 @@ Assim a aplicação estará rodando. O script do docker apenas sobe o MongoDb e 
 &nbsp;&nbsp;&nbsp;&nbsp;Para adicionar um planeta deve ser feita uma requisição post em json para o endpoint "/planets".
 
 &nbsp;&nbsp;&nbsp;&nbsp;Ex:
-POST http://localhost:8080/planets
+POST http://localhost:8080/planet
 ```JSON
 {
 	"name":"planet",
@@ -89,9 +89,13 @@ GET http://localhost:8080/planet/{ID}
 &nbsp;&nbsp;&nbsp;&nbsp;Ex:
 GET http://localhost:8080/planet/findByName?name={NOME}
 
+&nbsp;&nbsp;&nbsp;&nbsp;Caso seja inserida um nome inválido, será retornado o erro 404 não encontrado.
+
 #### <a name="deleta">Remover planeta:</a>
 
 &nbsp;&nbsp;&nbsp;&nbsp;Fazer uma solicitação delete para o endpoint "/planet/{ID}" indicando a ID do planeta no final do endpoint.
 
 &nbsp;&nbsp;&nbsp;&nbsp;Ex: 
 DELETE http://localhost:8080/planetas/1
+
+&nbsp;&nbsp;&nbsp;&nbsp;Caso seja inserida uma id inválida, será retornado o erro 404 não encontrado.
